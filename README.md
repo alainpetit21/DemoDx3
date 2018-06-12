@@ -19,6 +19,5 @@ Debug : a windows XP compiled version Release
 
 
 TODO : 
-- bug in debug version where pitch of BackBuffer is smaller
 -Release does not have above mentionned bug, but crach
 
