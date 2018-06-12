@@ -6,6 +6,10 @@ This was a little project that I've made to text a particular rewrite of a softw
 
 At first I've recode the 3D Renderer as part of a Direct Draw Surface, but later I've update it to other platforms (GBA, Windows CE)
 
+WHAT YOU NEED TO COMPILE :
+- Microsoft Visual C++ 6.0
+- Microsoft DXSDK_Aug09.exe from https://download.microsoft.com/download/4/C/F/4CFED5F5-B11C-4159-9ADC-E133B7E42E5C/DXSDK_Aug09.exe
+
 
 Files ID :
 Demo.dsw : Visual Studio 6 Workspace
