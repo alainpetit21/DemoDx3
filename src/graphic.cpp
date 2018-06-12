@@ -85,7 +85,7 @@ VID_NewBitmap(IDirectDrawSurface **ppBitmap, uint nWidth, uint nHeight)
 	TempDescription.lPitch = nWidth<<1;
 	TempDescription.dwHeight = nHeight;
 
-	TempDescription.ddsCaps.dwCaps = DDSCAPS_OFFSCREENPLAIN;
+	TempDescription.ddsCaps.dwCaps = DDSCAPS_OFFSCREENPLAIN|DDSCAPS_SYSTEMMEMORY;
 
 	lpDD->CreateSurface(&TempDescription, ppBitmap,NULL);
 
